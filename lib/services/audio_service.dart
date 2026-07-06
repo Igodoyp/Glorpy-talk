@@ -15,7 +15,7 @@ class AudioService {
     );
 
 
-    ByteData audioData = await rootBundle.load('blip.wav');
+    ByteData audioData = await rootBundle.load('assets/blip.wav');
 
     _soundId = await _pool.load(audioData);
     }
